@@ -12,4 +12,7 @@ function count_one(array $count_this){
 	}
 	return $count;
 }
+
+$input = [1,0,0,1,0,1,1];
+echo count_one($input);
 ?>
